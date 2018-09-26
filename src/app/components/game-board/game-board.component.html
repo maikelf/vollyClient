@@ -36,22 +36,24 @@
           </div>
           <div class="row top15 text-center">
             <div class="col-lg-6 font-weight-bold">
-              {{game.team1 | uppercase}}
-              <span *ngIf="score.service === game.team1"><i class="fa fa-dot-circle-o fa-2x text-success" aria-hidden="true"></i></span>
+              <div>
+                {{game.team1 | uppercase}}
+                <span *ngIf="score.service === game.team1"><i class="fa fa-dot-circle-o fa-2x text-success" aria-hidden="true"></i></span>
+              </div>
+              <div class="top20 font1">
+                {{score.partialScore[score.currentSet-1][0]}}
+              </div>
             </div>
             <div class="col-lg-6 font-weight-bold">
-              {{game.team2 | uppercase}}
-              <span *ngIf="score.service === game.team2"><i class="fa fa-dot-circle-o fa-2x text-success" aria-hidden="true"></i></span>
+              <div>
+                {{game.team2 | uppercase}}
+                <span *ngIf="score.service === game.team2"><i class="fa fa-dot-circle-o fa-2x text-success" aria-hidden="true"></i></span>
+              </div>
+              <div class="top20 font2">
+                {{score.partialScore[score.currentSet-1][1]}}
+              </div>
             </div>
           </div>
-          <div class="row text-center">
-            <div class="col-lg-6 font1">
-              {{score.partialScore[score.currentSet-1][0]}}
-            </div>
-            <div class="col-lg-6 font2">
-              {{score.partialScore[score.currentSet-1][1]}}
-          </div>
-        </div>
       </mat-card-content>
     </mat-card>
     <mat-card class="top30">
