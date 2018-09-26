@@ -4,9 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Install
 
-1- Clone this project: git clone https://github.com/maikelf/vollyClient
-2- Move to vollyClient directory: cd vollyClient
-3- npm install
+1- Clone this project: git clone https://github.com/maikelf/vollyClient 
+2- Move to vollyClient directory: cd vollyClient 
+3- npm install 
 4- Go to Development server session 
 
 ## Development server
