@@ -1,0 +1,11 @@
+{
+  "/volly": {
+    "target": "http://localhost:3000/api/v1",
+    "pathRewrite": {
+      "^/volly": ""
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

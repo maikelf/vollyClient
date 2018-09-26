@@ -1,0 +1,18 @@
+.input-full-width {
+    width: 100%;
+}
+.r {
+    text-align: right;
+}
+.form-component-error {
+    margin-top: 2px;
+    font-style: italic;
+    color: #990000;
+    font-size: 12px;
+}
+.top15p {
+    margin-top: 15%;
+}
+.top20 {
+    margin-top: 20px;
+}

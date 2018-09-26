@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6"  *ngIf="game.state">
+      <app-register-game (registerStatus)="getRegister($event)"></app-register-game>
+    </div>
+    <div class="col-lg-6"  *ngIf="!game.state">
+      <app-game-board [game]="game" (registerStatus)="getRegister($event)"></app-game-board> 
+    </div>
+  </div>
+</div>
