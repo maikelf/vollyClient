@@ -15,11 +15,10 @@
         </div>
         <div class="row top15 text-center">
           <div class="col-lg-12">
-            <button mat-raised-button color="primary" matBadge="{{score.globalScore[0]}}" matBadgePosition="after" matBadgeColor="accent">
+            <button mat-raised-button color="primary" matBadge="{{score.globalScore[0]}}" matBadgePosition="after" matBadgeColor="accent" class="rl">
               {{game.team1 | uppercase}}
             </button>
-            &nbsp;&nbsp;&nbsp;
-            <button mat-raised-button color="primary" matBadge="{{score.globalScore[1]}}" matBadgePosition="after" matBadgeColor="accent">
+            <button mat-raised-button color="primary" matBadge="{{score.globalScore[1]}}" matBadgePosition="before" matBadgeColor="accent" class="rl">
               {{game.team2 | uppercase}}
             </button>
           </div>
